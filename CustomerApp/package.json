@@ -1,0 +1,20 @@
+{
+    "name": "customerapp",
+    "version": "1.0.0",
+    "description": "Simple Customer Managment app",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "app.js"
+    },
+    "dependencies": {
+        "body-parser": "*",
+        "ejs": "^2.5.7",
+        "express": "*",
+        "express-validator": "^4.3.0",
+        "mongojs": "^2.4.1",
+        "nodemon": "*"
+    },
+    "author": "Davor Mihajleski",
+    "license": "ISC"
+}
